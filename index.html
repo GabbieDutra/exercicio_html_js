@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio_html_js</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <h1>exercicio_html_js</h1>
+            <h2>EBAC - Desenvolvedor Full Stack Python</h2>
+            <div id="texto_01">
+                Preencha com os valores nos Campos "A" e "B" abaixo.
+            </div>
+            <input type="number" id="campoA" required placeholder="Campo A"/>
+            <p class="erro">
+                O valor deve ser maior que o do Campo 
+            </p>
+            <input type="number" id="campoB" required placeholder="Campo B"/>
+            <button type="submit" id="botao">COMPARAR</button>
+        </form>
+        <p class="resultado_certo"></p>
+        <p class="resultado_erro"></p>
+    </div>
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
